@@ -13,7 +13,7 @@ private:
 	Grower* grower;
 	
 public:
-	Wholesaler(std::string name);
+	Wholesaler(std::string name, Grower* gr);
 	FlowersBouquet* acceptOrder(std::vector<std::string> vec);
 };
 

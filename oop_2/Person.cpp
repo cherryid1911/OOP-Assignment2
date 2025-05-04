@@ -7,7 +7,7 @@ std::string Person::name() const {
 }
 
 void Person::orderFlowers(Florist* floristP, Person* personP, std::vector<std::string> vec) {
-	// Implementation
+	floristP->orderFlowers(personP, vec);
 }
 
 void Person::acceptFlowers(FlowersBouquet* bouquetP) {
