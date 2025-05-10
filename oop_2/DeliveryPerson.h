@@ -5,7 +5,6 @@
 #include <vector>
 #include "Person.h"
 
-class person;
 class FlowersBouquet;
 
 class DeliveryPerson : public Person {
