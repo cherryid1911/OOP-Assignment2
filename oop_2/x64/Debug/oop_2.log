@@ -8,5 +8,4 @@
   Person.cpp
   Wholesaler.cpp
   Generating Code...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\ofek\source\repos\OOP-Assignment2\x64\Debug\oop_2.exe : fatal error LNK1120: 1 unresolved externals
+  oop_2.vcxproj -> C:\Users\idanc\Desktop\University\OOP\Assignment_2\hw2\x64\Debug\oop_2.exe

@@ -12,8 +12,20 @@ std::string Person::getName() {
 }
 
 void Person::orderFlowers(Florist* florist, Person* person, std::vector<std::string> flowers) {
+	std::cout << name << " orders flowers to " << person->getName()
+		<< " from Florist " << florist->getName() << ": ";
+
+	for (size_t i = 0; i < flowers.size(); ++i) {
+		std::cout << flowers[i];
+		if (i < flowers.size() - 1)
+			std::cout << ", ";
+	}
+
+	std::cout << "." << std::endl;
+
 	florist->acceptOrder(person, flowers);
 }
+
 
 void Person::acceptFlowers(FlowersBouquet* bouquet) {
 	std::cout << name << " accepts the flowers: ";
