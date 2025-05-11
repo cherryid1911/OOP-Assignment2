@@ -5,11 +5,12 @@
 #include <vector>
 #include "Person.h"
 
-class FlowersBouquet;
+class FlowersBousquet;
 
 class DeliveryPerson : public Person {
 public:
 	DeliveryPerson(std::string name);
-	void deliver(Person∗ person, FlowersBouquet∗ flowerBouquet);
-}
+	void deliver(Person* person, FlowersBouquet* bouquet);
+};
+
 #endif

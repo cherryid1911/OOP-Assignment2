@@ -6,10 +6,13 @@
 
 class FlowersBouquet {
 private:
-	std::vector<std::string> bouquet;
+	std::vector<std::string> flowers;
 	bool isArranged;
 
 public:
 	FlowersBouquet(std::vector<std::string> flowers);
 	void arrange();
+	std::vector<std::string> getFlowers();
+};
+
 #endif

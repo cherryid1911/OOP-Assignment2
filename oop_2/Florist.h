@@ -8,15 +8,17 @@
 class Wholesaler;
 class FlowerArranger;
 class DeliveryPerson;
+class FlowerBouquet;
 
 class Florist :public Person {
 private:
 	Wholesaler* wholesaler;
 	FlowerArranger* flowerArranger;
 	DeliveryPerson* deliveryPerson;
+
 public:
 	Florist(std::string name, Wholesaler* ws, FlowerArranger* fa, DeliveryPerson* dp);
-	void acceptOrder(Person* personP, std::vector<std::string> vec);
+	void acceptOrder(Person* person, std::vector<std::string> flowers);
 };
 
 #endif
